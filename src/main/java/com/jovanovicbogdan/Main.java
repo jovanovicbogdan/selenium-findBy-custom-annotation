@@ -1,5 +1,6 @@
 package com.jovanovicbogdan;
 
+import com.jovanovicbogdan.poms.BasicFormPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,19 +13,10 @@ public class Main {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.selenium.dev/selenium/web/web-form.html");
-        String title = driver.getTitle();
+        driver.get("https://jovanovicbogdan.github.io/toolbelt-qa/#/elements/basic-form");
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
-
-        WebElement textBox = driver.findElement(By.name("my-text"));
-        WebElement submitButton = driver.findElement(By.cssSelector("button"));
-
-        textBox.sendKeys("Selenium");
-        submitButton.click();
-
-        WebElement message = driver.findElement(By.id("message"));
-        String value = message.getText();
+        BasicFormPage basicFormPage = new BasicFormPage(driver);
+        basicFormPage.inputFirstName("Bogdan");
 
         driver.quit();
     }

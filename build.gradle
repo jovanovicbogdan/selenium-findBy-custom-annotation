@@ -22,6 +22,6 @@ test {
 }
 
 task run(type: JavaExec) {
-    mainClass = 'org.example.Main'
+    mainClass = 'com.jovanovicbogdan.Main'
     classpath = sourceSets.main.runtimeClasspath
 }
