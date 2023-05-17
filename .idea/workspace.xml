@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd18a38-3d5a-435e-99a2-ce31d74d97f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jovanovicbogdan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jovanovicbogdan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jovanovicbogdan/poms/BasicFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jovanovicbogdan/poms/BasicFormPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +48,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,7 +70,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RunManager" selected="Gradle.selenium-findBy-custom-annotation [classes]">
@@ -99,6 +107,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="selenium-findBy-custom-annotation [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -120,6 +129,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <recent_temporary>
